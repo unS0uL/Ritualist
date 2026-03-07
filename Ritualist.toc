@@ -1,0 +1,16 @@
+## Title: |cff9482c9Ritualist|r
+## Notes: A minimalist Warlock summoning assistant
+## Version: 1.1.5
+
+## Author: Unsoul
+## Interface: 11200
+## SavedVariables: RitualistDB
+
+# Core
+RitualistLocalization.lua
+RitualistUI.lua
+Ritualist.lua
+
+# Modules
+RitualistSoulstone.lua
+RitualistRitualofSouls.lua

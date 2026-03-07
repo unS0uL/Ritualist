@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow only these specific files in the root directory
+!*.lua
+!*.toc
+!README.md
+!GEMINI.md
+!ROADMAP.md
+!Deploy.ps1
+!LICENSE
+
+# Allow GitHub Actions
+!.github/
+!.github/workflows/*
+
+# Keep the .gitignore itself
+!.gitignore
+
+# Exclude common junk
+*.log
+*.bak
+*.old
+.DS_Store
+Thumbs.db
